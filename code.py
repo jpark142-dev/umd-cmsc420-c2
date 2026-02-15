@@ -178,9 +178,9 @@ class DB():
                         pred.parent.leftchild = child
                     else:
                         pred.parent.rightchild = child
-            
-            self.rows.pop(row_num)
-            self._update_rownumbers(self.root,row_num)
+        # Remove the row and update row number after delete node
+        self.rows.pop(row_num)
+        self._update_rownumbers(self.root,row_num)
 
     # Helper function which is finding a specific node for delete function
     def _find_node(self, current, age):
