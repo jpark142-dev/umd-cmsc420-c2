@@ -165,6 +165,8 @@ class DB():
                 if pred.iop is not None:
                     pred.iop.ios = node
                 node.iop = pred.iop
+                if node.ios is not None:
+                    node.ios.iop = node
 
                 if pred.leftchild is None:
                     if pred.parent.leftchild == pred:
