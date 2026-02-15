@@ -1,4 +1,4 @@
-# CMSC 420 — Binary Search Tree Index (v4)
+# CMSC 420 — Binary Search Tree (v4)
 
 ## Project Summary
 
