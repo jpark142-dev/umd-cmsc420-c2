@@ -17,4 +17,4 @@ people_range,25,35
 delete,Alice
 dump_rows
 dump_index
-people_range,20,35
+people_range,20,40
